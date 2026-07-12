@@ -1,0 +1,25 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A2F36"/>
+      <stop offset="100%" stop-color="#1B1F24"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9AE8C"/>
+      <stop offset="100%" stop-color="#8B6A46"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="520" fill="url(#bg)"/>
+  <g opacity="0.08">
+    <line x1="0" y1="130" x2="520" y2="130" stroke="#F3F1EC" stroke-width="1"/>
+    <line x1="0" y1="260" x2="520" y2="260" stroke="#F3F1EC" stroke-width="1"/>
+    <line x1="0" y1="390" x2="520" y2="390" stroke="#F3F1EC" stroke-width="1"/>
+    <line x1="130" y1="0" x2="130" y2="520" stroke="#F3F1EC" stroke-width="1"/>
+    <line x1="260" y1="0" x2="260" y2="520" stroke="#F3F1EC" stroke-width="1"/>
+    <line x1="390" y1="0" x2="390" y2="520" stroke="#F3F1EC" stroke-width="1"/>
+  </g>
+  <circle cx="260" cy="220" r="98" fill="url(#skin)"/>
+  <path d="M120 460 C120 340 180 300 260 300 C340 300 400 340 400 460 Z" fill="url(#skin)" opacity="0.92"/>
+  <path d="M162 180 C162 120 205 80 260 80 C315 80 358 120 358 180 L358 150 C330 130 300 150 260 130 C220 150 190 130 162 150 Z" fill="#20262C"/>
+  <text x="260" y="500" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" fill="#C9AE8C" letter-spacing="2">AVATAR.SVG</text>
+</svg>
